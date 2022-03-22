@@ -1,0 +1,14 @@
+Esercitazione n. 1
+Realizzare una pagina Web statica specificando i seguenti punti:
+1) HomePage
+- inserire un logo
+- posizionare logo e titolo della pagina in alto sulla stessa linea
+- barra di navigazione verticale con link: Home, Aggiungi Libro.
+- inserire una tabella con alcuni libri, una riga finale che riporta 
+  il totale dei libri presenti e accanto ad ogni riga le icone per eliminare e modificare
+2) Aggiungi libro
+- creare una form per l'inserimento di titolo, autore, codice ISBN, disponibile/non
+disponibile.
+Input di titolo e autore devono essere di tipo testo, codice ISBN deve essere un codice
+numerico di 13 cifre,
+disponibile/non disponibile deve essere scelto tramite radio button.
