@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Mia Prima Pagina</title>
+</head>
+<body bgcolor="PINK">
+    <p style="text-align: center">
+        La mia prima pagina HTML <!--questo è un commento-->
+    </p>
+    <p style="color:green">
+        Ciao!            Prova con tanti    spazi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;così ho realmente inserito spazi.
+        Con l'invio non vado a capo <br /> Solo così vado realmente a capo.
+    </p>
+    <p>
+        Altro paragrafo
+        <br />
+        <b>Testo in grassetto</b>
+        <br />
+        <u>Testo sottolineato</u>
+        <br />
+        <i>Testo Corsivo</i>
+        <br />
+        <b><i>Grassetto corsivo insieme ma voglio aggiungere anche un <span style="font-size:30px">Ciao</span> in formato più grande </i></b>
+    </p>
+    <p contenteditable="true">
+        Prova tu a cambiare questo testo
+    </p>
+    <button type="button">Pulsante</button>
+
+    <button type="button" onclick="getElementById('pippo').setAttribute('hidden', '');">Nascondi paragrafo</button>
+    <p id="pippo">
+        Nuovo paragrafo
+    </p>
+    <h1>Titolo</h1>
+    <h2>Titolo</h2>
+    <h4>Titolo</h4>
+    <h6>Titolo</h6>
+
+
+    <h3>Aggiungiamo un'immagine</h3>
+    <img src="Luna.jpg" />
+    <br />
+    <img src="Luna.jpg"
+         width="100"
+         height="100"
+         alt="Immagine della luna!"
+         title="Ecco la luna" />
+    <br />
+    <img src="Immigini/sole.jpg" />
+    <!--<img src="C:\Users\RenataCarriero\Desktop\Livello\puntoInterrogativoRosso.png" />-->
+    <!--immagine dal web-->
+    <img src="https://m.media-amazon.com/images/I/51QeT3S3jAL._AC_SY450_.jpg" />
+
+    <!--immagini cliccabili-->
+    <br />
+    <img style="text-align:center" src="Luna.jpg" width="300" height="300" usemap="#miaMappa" />
+
+    <map name="miaMappa">
+        <area shape="rect" coords="0,0,50,50" href="PaginaProva.html" />
+        <area shape="circle" coords="150,150,50" href="PaginaProva2.html" />
+    </map>
+
+    <br />
+    <a href="PagineHTML/PaginaDeiGatti.html" target="_blank">Clicca qui per andare alla pagina dei gatti</a>
+    <br />
+    <a href="#ultimoParagrafo">Clicca qui per andare all'ultimo paragrafo</a>
+    <br />
+    <!--invio di una mail-->
+    <a href="mailto:tizio@mail.it">Clicca per inviare una mail a tizio</a>
+
+    <br />
+    <h2>Elenco puntato</h2>
+    <ul>
+        <li>prima opzione</li>
+        <li>seconda opzione</li>
+        <li>terza opzione</li>
+        <li>quarta opzione</li>
+    </ul>
+    <br />
+    <h2>Elenco numerato</h2>
+    <ol>
+        <li>prima opzione</li>
+        <li>seconda opzione</li>
+        <li>terza opzione</li>
+        <li>quarta opzione</li>
+    </ol>
+
+    <h2>Tabella</h2>
+    <table border="1" width="100%">
+        <thead>
+            <tr>
+                <th>Prima Colonna</th>
+                <th>Seconda Colonna</th>
+                <th>Terza Colonna</th>
+            </tr>
+        </thead>
+        <tbody style="color:RED">
+            <tr>
+                <td>Riga1 Colonna1</td>
+                <td>Riga1 Colonna2</td>
+                <td>Riga1 Colonna3</td>
+            </tr>
+            <tr>
+                <td>Riga2 Colonna1</td>
+                <td>Riga2 Colonna2</td>
+                <td>Riga2 Colonna3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">footer della tabella</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <video width="320" height="240" controls="controls">
+        <source src="Video/GATTINI carini e Divertenti.mp4" type="video/mp4" />
+    </video>
+    <!--Incorporare un video o una playlist
+    Su un computer, vai alla playlist o al video di YouTube che vuoi incorporare.
+    Fai clic su CONDIVIDI o tasto destro del mouse sul video.
+    Nell'elenco delle opzioni di condivisione, fai clic su Incorpora.
+    Copia il codice HTML dalla casella che appare.
+    Incolla il codice copiato nel codice HTML del tuo sito web ed eventualmente modeifica ad esempio le dimensioni.-->
+    
+    <iframe width="320" height="240" src="https://www.youtube.com/embed/VdZfItuTdmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br />
+    <a href="https://www.google.it">Vai su google</a>
+    <br />
+    <button onclick="location.href='https://www.google.it'">Vai su Google</button>
+
+    <p>Registrati! Inserisci <a href="Registrazione.html">qui</a> i tuoi dati</p>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <a name="ultimoParagrafo"></a>
+    <p>Ultimo paragrafo</p>
+</body>
+</html>
