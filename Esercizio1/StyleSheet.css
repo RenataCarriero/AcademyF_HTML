@@ -1,0 +1,53 @@
+﻿body{
+    background-color: lavender;
+}
+
+#logo {
+ width:70px;
+ height:70px;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: mediumpurple;
+}
+
+#logo + h1 {
+    display: inline
+}
+
+ul{
+    padding:40px;
+    margin-left: -8px;
+    margin-right: -8px;
+    list-style-type: none;
+    background: white;    
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding:10px;
+}
+
+li a {
+    /*float: left;*/
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-family: Calibri;
+}
+
+li a:link{
+    color: mediumslateblue;
+}
+
+li a:visited{
+    color: deeppink;
+}
+
+li a:hover{
+    background-color: lightblue;
+}
+
