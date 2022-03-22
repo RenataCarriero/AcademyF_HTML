@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>HomePage</title>
+
+</head>
+<body>
+    <header>
+        <h1> <img src="libri.png" id="logo" width="50" height="50" align="left" /> &nbsp; Il magazzino della nostra libreria</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="HomePage.html">Home</a></li>
+            <li><a href="AggiungiLibro.html">Aggiungi Libro</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!--Table-->
+        <table border="1" width="100%" cellpadding="10" cellspacing="3">
+            <thead>
+                <!--Table header-->
+                <tr>
+                    <!--Table row-->
+                    <th>Titolo</th> <!--cella header-->
+                    <th>Autore</th>
+                    <th>ISBN</th>
+                    <th>Disponibile in magazzino</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Orgoglio e pregiudizio</td> <!--Table data, definisce cella-->
+                    <td>Jane Austen</td>
+                    <td>1234567891234</td>
+                    <td>Si</td>
+                    <td>
+                        <a href="#"><img width="30" height="30" id="imgEdit" src="edit.png" /></a>
+                        <a href="#"><img width="30" height="30" id="imgDelete" src="delete.png" /></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Uno, nessuno e centomila</td> <!--Table data, definisce cella-->
+                    <td>Luigi Pirandello </td>
+                    <td>1234567891236</td>
+                    <td>Si</td>
+                    <td>
+                        <a id="edit" href="#"><img width="30" height="30" src="edit.png" id="imgEdit" /></a>
+                        <a id="delete" href="#"><img width="30" height="30" src="delete.png" id="imgDelete" /></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>I promessi sposi</td> <!--Table data, definisce cella-->
+                    <td>Alessandro Manzoni</td>
+                    <td>5434567891236</td>
+                    <td>No</td>
+                    <td>
+                        <a href="#"><img width="30" height="30" id="imgEdit" src="edit.png" /></a>
+                        <a href="#"><img width="30" height="30" id="imgDelete" src="delete.png" /></a>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <!--Footer della tabella-->
+                <tr>
+                    <th colspan="4">Totale</th>
+                    <th>3</th>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+</body>
+</html>

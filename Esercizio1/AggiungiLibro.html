@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>AggiungiLibro</title>
+    
+</head>
+<body>
+    <header>
+        
+        <h1><img src="libri.png" id="logo" width="50" height="50" align="left"/> &nbsp; Il magazzino della nostra libreria</h1>
+    </header>
+
+    <!--Navgation Bar-->
+    <nav>
+        <ul>
+            <li><a href="HomePage.html">Home</a></li>
+            <li><a href="AggiungiLibro.html">Aggiungi Libro</a></li>
+        </ul>
+    </nav>
+
+    <br /> <br />
+
+    <!--Form di aggiunta di un nuovo libro-->
+           <form>
+               <label>Titolo</label> <!--Label = etichetta-->
+               <input placeholder="Titolo" type="text" required />
+
+               <br />
+               <br />
+
+               <label>Autore</label>
+               <input type="text" placeholder="Autore" required />
+
+               <br />
+               <br />
+
+               <label><input type="radio" value="1" name="disponibile" />Disponibile</label>
+
+               <label><input type="radio" value="2" name="disponibile" />Non disponibile</label>
+
+               <br /> <br />
+
+               <label>ISBN</label>
+               <input placeholder="ISBN" pattern="[0-9]{13}" title="Deve contenere 13 caratteri!" />
+
+               <br />
+
+               <input type="submit" value="Salva" />
+               <input type="reset" value="Reset" />
+           </form>
+</body>
+</html>
