@@ -1,13 +1,13 @@
-﻿body{
+﻿body {
     background-color: lavender;
 }
 
 #logo {
- width:70px;
- height:70px;
+    width: 70px;
+    height: 70px;
 }
 
-h1{
+h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: mediumpurple;
 }
@@ -16,19 +16,19 @@ h1{
     display: inline
 }
 
-ul{
-    padding:40px;
+ul {
+    padding: 40px;
     margin-left: -8px;
     margin-right: -8px;
     list-style-type: none;
-    background: white;    
+    background: white;
 }
 
 li a {
     display: block;
     text-decoration: none;
     text-align: center;
-    padding:10px;
+    padding: 10px;
 }
 
 li a {
@@ -39,15 +39,75 @@ li a {
     font-family: Calibri;
 }
 
-li a:link{
-    color: mediumslateblue;
+    li a:link {
+        color: mediumslateblue;
+    }
+
+    li a:visited {
+        color: deeppink;
+    }
+
+    li a:hover {
+        background-color: lightblue;
+    }
+
+
+table {
+    background-color: antiquewhite;
 }
 
-li a:visited{
-    color: deeppink;
+table thead, tfoot{
+    font-family: 'Segoe UI';
+    background-color: thistle;
+    color: mediumvioletred;
 }
 
-li a:hover{
-    background-color: lightblue;
+table tr{
+    font-family: 'Segoe UI';
+    text-align: center;
+}
+
+tbody tr:nth-child(2n+1){
+    background-color: white;
+}
+
+tbody tr:nth-last-child(2n) {
+    background-color: lavenderblush;
+}
+
+tbody tr:hover{
+    background-color:azure;
+    color:mediumvioletred
+}
+
+label {
+    color:darkblue;
+    font-family: 'Segoe UI';
+}
+
+form {
+    text-align:center;
+}
+
+input[type=submit], input[type=reset]{
+    margin-top: 20px;
+    color: darkblue;    
+    border-radius: 10px;
+    border: 5px solid mediumvioletred;
+    font-family: 'Segoe UI';
+    text-align:center;
+    font-style: italic;
+}
+
+input {
+    font-family: 'Segoe UI';
+    border-color: darkblue;
+    border-radius: 5px;
+    border-style: dotted;
+}
+
+#imgEdit, #imgDelete{
+    width: 20px;
+    height:20px;
 }
 
