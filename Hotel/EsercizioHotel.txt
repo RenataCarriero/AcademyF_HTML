@@ -1,0 +1,11 @@
+Hotel:
+Le pagine da fare sono:
+- Homepage (con contenuti liberi, esempi: descrizione dell'hotel, qualche foto...)
+Messaggio di avviso con benvenuto al caricamento della pagina.
+- Stanze ('elenco' stanze disponibili, con servizi annessi (es. bagno privato, balcone, frigobar ecc.
+Affiancate alla descrizione di ogni stanza una foto.
+- Contatti (indirizzo, email, numero di telefono, box per informazioni (elemento textare).
+-Pagina di prenotazione (con form per compilare con i dati dell'utente)
+
+CSS:
+- usare diversi selettori
