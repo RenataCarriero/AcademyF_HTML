@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+
+    <title> News </title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <script src="script.js"> </script>
+    <meta name="viewport" content="width=device-width"/>
+
+</head>
+<body onload="checkSubscription(false)">
+    <form>
+        <header> <h1> Subscribe to Our Newsletter!</h1></header>
+        <div>
+            <input type="text" onchange="change()" />
+        </div>
+        <br />
+        <div>
+            <input type="submit" value="Subscribe" disabled onclick="subscribe()" />
+        </div>
+        <br />
+        <div>
+            <input type="submit" value="Unsubscribe" disabled onclick="unsubscribe()" />
+        </div>
+
+
+    </form>
+    <section style="text-align: center; margin: 30px;">
+        <a href="Home.html">
+            <button>Go Back</button>
+        </a>
+    </section>
+    <footer>
+        <p> Created with &hearts;  by Renata Carriero </p>
+    </footer>
+
+</body>
